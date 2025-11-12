@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutUs from "./AboutUs";
 import Objectives from "./components/Objectives";
+import SubmissionProcess from "./components/SubmissionProcess";
 import Footer from "./Footer";
 
 const App = () => {
@@ -10,8 +11,10 @@ const App = () => {
     <div className="relative">
       <Navbar />
       <Hero />
+            <AboutUs/>
       <Objectives/>
-      <AboutUs/>
+
+      <SubmissionProcess/>
       <Footer />
     </div>
   );

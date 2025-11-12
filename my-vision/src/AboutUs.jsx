@@ -13,16 +13,17 @@ const AboutUs = () => {
             About the Organisation
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            ADORE is a global voluntary network of college students and working
-            professionals, who are actively inspiring youth and setting them on
-            a path of positive growth.
+            ADORE is a global volunteer-driven community that brings together individuals who aspire to make a positive difference in society through small yet impactful actions. <br /><br /> 
+We believe that change begins with awareness, empathy, compassion and action. Through structured volunteering programs and leadership training, ADORE encourages and inspires  youth to contribute meaningfully to society while developing essential life and soft skills and becoming responsible citizens, compassionate leaders, and changemakers. <br /><br />
+With members across India and beyond, ADORE provides a platform for young minds to engage, learn, and lead through purposeful social initiatives.
+
           </p>
           <p className="text-gray-600 text-base mb-8">
             <strong>Sponsored by Garg Foundation</strong>
           </p>
-          <button className="border border-lime-800 text-lime-900 font-semibold px-6 py-3 rounded-lg hover:bg-lime-800 hover:text-white transition">
+         <a href="https://adoreglobal.org"> <button className="border border-lime-800 text-lime-900 font-semibold px-6 py-3 rounded-lg hover:bg-lime-800 hover:text-white transition">
             Read More
-          </button>
+          </button></a>
         </div>
 
         {/* Right Image Grid */}
@@ -32,7 +33,7 @@ const AboutUs = () => {
             alt="Helping hands"
             className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
           />
-          <img
+          {/* <img
             src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0001.jpg"
             alt="Volunteers"
             className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
@@ -46,7 +47,7 @@ const AboutUs = () => {
             src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80"
             alt="Charity"
             className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
-          />
+          /> */}
         </div>
       </div>
     </section>

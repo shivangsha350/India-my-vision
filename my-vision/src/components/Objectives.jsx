@@ -3,65 +3,48 @@ import React from "react";
 const Objectives = () => {
   return (
     <section className="bg-[#FAFAF8] py-20 px-6 md:px-16">
-      <div className="max-w-7xl mx-auto text-center mb-12">
-        <h3 className="uppercase text-sm text-gray-500 tracking-wider mb-2">
+      {/* Heading Section */}
+      <div className="max-w-5xl mx-auto text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-lime-900 mb-4">
           Objectives
-        </h3>
-        <h2 className="text-3xl md:text-4xl font-bold text-lime-900 mb-4">
-          Instill a Sense of Nationalism and Responsibility
         </h2>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto">
-          This program seeks to achieve the following: Encourage awareness of
-          national challenges and possible solutions. Inspire values for a
-          strong, happy, and prosperous India.
+          Our objectives aim to empower youth with values, vision, and responsibility to contribute meaningfully to the nation’s growth.
         </p>
       </div>
 
-      {/* 3-column row */}
-      <div className="max-w-7xl mx-auto bg-white rounded-3xl shadow-sm grid md:grid-cols-3 border overflow-hidden">
-        {/* 01 */}
-        <div className="p-10 border-r border-gray-200">
-          <h4 className="text-5xl font-extrabold text-gray-300 mb-4">01.</h4>
-          <h3 className="text-2xl font-bold text-lime-900 mb-3">Causes</h3>
-          <p className="text-gray-600 mb-6">
-            We support education, healthcare, and poverty reduction.
+      {/* 4 Objective Points */}
+      <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-sm border divide-y divide-gray-200 overflow-hidden">
+        {/* Point 01 */}
+        <div className="p-8 text-left">
+          <h4 className="text-3xl font-bold text-lime-900 mb-2">01. Patriotism & Social Awareness</h4>
+          <p className="text-gray-600 mb-2">
+            To instill a sense of nationalism and social responsibility among students.
           </p>
-          <a
-            href="#"
-            className="text-black font-semibold hover:underline inline-flex items-center"
-          >
-            See Proof <span className="ml-2">→</span>
-          </a>
         </div>
 
-        {/* 02 */}
-        <div className="p-10 border-r border-gray-200">
-          <h4 className="text-5xl font-extrabold text-gray-300 mb-4">02.</h4>
-          <h3 className="text-2xl font-bold text-lime-900 mb-3">Get Involved</h3>
-          <p className="text-gray-600 mb-6">
-            Volunteer or donate your skills to make a difference.
+        {/* Point 02 */}
+        <div className="p-8 text-left">
+          <h4 className="text-3xl font-bold text-lime-900 mb-2">02. Visionary Mindset</h4>
+          <p className="text-gray-600 mb-2">
+            To nurture goal-setting and futuristic thinking in youth.
           </p>
-          <a
-            href="#"
-            className="text-black font-semibold hover:underline inline-flex items-center"
-          >
-            View Financials <span className="ml-2">→</span>
-          </a>
         </div>
 
-        {/* 03 */}
-        <div className="p-10">
-          <h4 className="text-5xl font-extrabold text-gray-300 mb-4">03.</h4>
-          <h3 className="text-2xl font-bold text-lime-900 mb-3">Donation</h3>
-          <p className="text-gray-600 mb-6">
-            Contribute today and help us change lives and build a better future.
+        {/* Point 03 */}
+        <div className="p-8 text-left">
+          <h4 className="text-3xl font-bold text-lime-900 mb-2">03. Problem-Solving Approach</h4>
+          <p className="text-gray-600 mb-2">
+            To foster an understanding of current national challenges and the ability to ideate practical solutions.
           </p>
-          <a
-            href="#"
-            className="text-black font-semibold hover:underline inline-flex items-center"
-          >
-            Learn More <span className="ml-2">→</span>
-          </a>
+        </div>
+
+        {/* Point 04 */}
+        <div className="p-8 text-left">
+          <h4 className="text-3xl font-bold text-lime-900 mb-2">04. Core Indian Values</h4>
+          <p className="text-gray-600 mb-2">
+            To promote core values that support a strong, happy, and prosperous India.
+          </p>
         </div>
       </div>
     </section>

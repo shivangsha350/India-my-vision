@@ -69,7 +69,7 @@ const Footer = () => {
           © 2025 Designed By Simtrak Solutions. All rights reserved.
         </p>
 
-        {/* Social Icons in requested order */}
+        {/* Social Media Icons*/}
         <div className="flex items-center space-x-5 text-gray-700 text-lg">
           <FaWhatsapp className="hover:text-lime-600 cursor-pointer transition" />
           <FaInstagram className="hover:text-lime-600 cursor-pointer transition" />

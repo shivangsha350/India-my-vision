@@ -15,15 +15,15 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-4xl px-4">
         <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-          India - My Vision 2035 award
+          India - My Vision 2035
 
         </h1>
         <p className="text-lg md:text-xl mb-8">
-          Every small act of kindness creates a ripple of positive change. <br />
-          Join us in making a difference lives together.
+         "India – My Vision 2035" is an initiative by ADORE (Sponsored program) to encourage <br /> school students across the country to dream, ideate, and present their version of a future India.
+
         </p>
         <button className="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-8 py-3 rounded-lg text-lg transition">
-          Donate Now
+          Join Us Now
         </button>
       </div>
 
