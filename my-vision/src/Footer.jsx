@@ -1,90 +1,166 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaWhatsapp } from "react-icons/fa";
-import { FaArrowUp } from "react-icons/fa6";
+import {
+  FaTwitter,
+  FaPaperPlane,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-[#3b3b3b] py-10 border-t border-gray-200">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
-        {/* Charity Section */}
+    <footer className="bg-[#0f1114] text-gray-300 pt-16">
+      {/* Top Section */}
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-gray-700 pb-12">
+        {/* ABOUT US */}
         <div>
-          <div className="flex items-center space-x-2 mb-3">
-            <div className="w-8 h-8 bg-lime-500 rounded-full flex items-center justify-center text-white text-lg font-bold">
-              S
-            </div>
-            <h2 className="text-2xl font-semibold text-gray-700 italic">
-              Charity
-            </h2>
+          <h3 className="text-xl font-semibold text-white mb-4 relative">
+            ABOUT US
+            <span className="absolute left-0 bottom-[-8px] w-10 h-[2px] bg-[#c53c56]"></span>
+          </h3>
+          <p className="text-sm leading-relaxed mb-5 text-gray-400">
+            Excellence decisively nay man yet impression for contrasted
+            remarkably. There spoke happy for you are out. Fertile how old
+            address did showing because sitting replied six. Had arose guest
+            visit going off child she new.
+          </p>
+          <p className="italic text-sm mb-3 text-gray-400">
+            Please write your email and get our amazing updates, news and
+            support
+          </p>
+
+          <div className="flex">
+            <input
+              type="email"
+              placeholder="Enter your e-mail here"
+              className="w-full bg-[#1a1c20] text-gray-300 text-sm px-4 py-3 focus:outline-none"
+            />
+            <button className="bg-[#c53c56] hover:bg-[#a93148] px-5 flex items-center justify-center transition">
+              <FaPaperPlane />
+            </button>
           </div>
-          <p className="text-sm leading-relaxed text-gray-600">
-            The power of giving: Support a cause and make a difference through
-            charity.
-          </p>
         </div>
 
-        {/* About Us */}
+        {/* RECENT POSTS */}
         <div>
-          <h3 className="text-lg font-semibold text-[#38451C] mb-3">
-            About Us
+          <h3 className="text-xl font-semibold text-white mb-4 relative">
+            RECENT POSTS
+            <span className="absolute left-0 bottom-[-8px] w-10 h-[2px] bg-[#c53c56]"></span>
           </h3>
-          <ul className="space-y-2 text-gray-600">
-            <li>Our History</li>
-            <li>What We Believe</li>
-            <li>Our Programs</li>
-            <li>Partners</li>
+
+          <ul className="space-y-5">
+            {/* Post 1 */}
+            <li className="flex gap-4 border-b border-gray-700 pb-4">
+              <img
+                src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=80&h=80&q=80"
+                alt="post1"
+                className="w-16 h-16 object-cover rounded"
+              />
+              <div>
+                <h4 className="text-sm text-white font-medium hover:text-[#c53c56] cursor-pointer">
+                  Participate In Staff Meetings Manage Dedicated
+                </h4>
+                <p className="text-xs text-gray-400 mt-2">
+                  12 FEB, 2018 | BY AUTHOR
+                </p>
+              </div>
+            </li>
+
+            {/* Post 2 */}
+            <li className="flex gap-4 border-b border-gray-700 pb-4">
+              <img
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=80&h=80&q=80"
+                alt="post2"
+                className="w-16 h-16 object-cover rounded"
+              />
+              <div>
+                <h4 className="text-sm text-white font-medium hover:text-[#c53c56] cursor-pointer">
+                  Future Plan & Strategy For Construction
+                </h4>
+                <p className="text-xs text-gray-400 mt-2">
+                  12 FEB, 2018 | BY AUTHOR
+                </p>
+              </div>
+            </li>
+
+            {/* Post 3 */}
+            <li className="flex gap-4">
+              <img
+                src="https://images.unsplash.com/photo-1605731414532-6b26976cc153?auto=format&fit=crop&w=80&h=80&q=80"
+                alt="post3"
+                className="w-16 h-16 object-cover rounded"
+              />
+              <div>
+                <h4 className="text-sm text-white font-medium hover:text-[#c53c56] cursor-pointer">
+                  Melancholy Particular Devonshire Alteration
+                </h4>
+                <p className="text-xs text-gray-400 mt-2">
+                  12 FEB, 2018 | BY AUTHOR
+                </p>
+              </div>
+            </li>
           </ul>
         </div>
 
-        {/* Ways to Give */}
+        {/* TWITTER WIDGET */}
         <div>
-          <h3 className="text-lg font-semibold text-[#38451C] mb-3">
-            Ways To Give
+          <h3 className="text-xl font-semibold text-white mb-4 relative">
+            TWITTER WIDGET
+            <span className="absolute left-0 bottom-[-8px] w-10 h-[2px] bg-[#c53c56]"></span>
           </h3>
-          <ul className="space-y-2 text-gray-600">
-            <li>Fundraise</li>
-            <li>Planned Giving</li>
-            <li>Brand Partnership</li>
-            <li>Legacy Giving</li>
-          </ul>
-        </div>
 
-        {/* Contact Info */}
-        <div>
-          <h3 className="text-lg font-semibold text-[#38451C] mb-3">
-            Contact Info
-          </h3>
-          <p className="text-gray-600 text-sm">
-            1234 Thornridge Cir. Syracuse,
-            <br />
-            Connecticut 56789
-          </p>
-          <p className="mt-2 text-sm text-gray-600">(406) 555-0121</p>
-          <p className="mt-1 text-sm text-gray-600">mail@example.com</p>
+          <div className="space-y-6">
+            <div>
+              <p className="text-sm text-gray-400 mb-2">
+                Looking for an awesome CREATIVE WordPress Theme? Esquise was
+                updated and optimized to run even better. Find it here:{" "}
+                <span className="text-[#c53c56] cursor-pointer">
+                  http://t.co/OWWEMQEQ48
+                </span>
+              </p>
+              <div className="flex items-center text-xs text-gray-500 gap-2">
+                <FaTwitter /> 01 day ago
+              </div>
+            </div>
+
+            <div>
+              <p className="text-sm text-gray-400 mb-2">
+                It is a long established fact that a reader will be distracted
+                by the readable. Find it here:{" "}
+                <span className="text-[#c53c56] cursor-pointer">
+                  http://t.co/OWWEMQEQ48
+                </span>
+              </p>
+              <div className="flex items-center text-xs text-gray-500 gap-2">
+                <FaTwitter /> 02 days ago
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="border-t border-gray-200 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6">
-        <p className="text-sm text-gray-600 mb-4 md:mb-0">
-          © 2025 Designed By Simtrak Solutions. All rights reserved.
-        </p>
+      {/* Bottom Bar */}
+      <div className="bg-[#0c0e10] mt-10 border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+          {/* Logo */}
+          <div className="flex items-center gap-2 mb-4 md:mb-0">
+            <img
+              src="/ADORE.png"
+              alt="Charity Logo"
+              className="w-32 h-auto"/>
+          </div>
 
-        {/* Social Media Icons*/}
-        <div className="flex items-center space-x-5 text-gray-700 text-lg">
-          <FaWhatsapp className="hover:text-lime-600 cursor-pointer transition" />
-          <FaInstagram className="hover:text-lime-600 cursor-pointer transition" />
-          <FaLinkedinIn className="hover:text-lime-600 cursor-pointer transition" />
-          <FaFacebookF className="hover:text-lime-600 cursor-pointer transition" />
-          <FaYoutube className="hover:text-lime-600 cursor-pointer transition" />
+          {/* Links */}
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-[#c53c56]">
+              Terms of Use
+            </a>
+            <a href="#" className="hover:text-[#c53c56]">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-[#c53c56]">
+              Contact Us
+            </a>
+            <p>Copyright @ Designed By Simtrak Solution</p>
+          </div>
         </div>
-
-        {/* Scroll to top */}
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="bg-lime-600 hover:bg-lime-700 text-white p-3 rounded-md ml-5 transition"
-        >
-          <FaArrowUp />
-        </button>
       </div>
     </footer>
   );
