@@ -2,52 +2,75 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-gradient-to-br from-white to-lime-50 py-20 px-6 md:px-16 rounded-2xl">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        {/* Left Text Section */}
-        <div>
-          <h3 className="uppercase tracking-widest text-sm text-gray-500 mb-2">
-            About Us
-          </h3>
-          <h2 className="text-4xl md:text-5xl font-bold text-lime-900 mb-6 leading-tight">
-            About the Organisation
-          </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            ADORE is a global volunteer-driven community that brings together individuals who aspire to make a positive difference in society through small yet impactful actions. <br /><br /> 
-We believe that change begins with awareness, empathy, compassion and action. Through structured volunteering programs and leadership training, ADORE encourages and inspires  youth to contribute meaningfully to society while developing essential life and soft skills and becoming responsible citizens, compassionate leaders, and changemakers. <br /><br />
-With members across India and beyond, ADORE provides a platform for young minds to engage, learn, and lead through purposeful social initiatives.
+    <section className="bg-linear-to-br from-white to-lime-50 py-24 px-6 md:px-20 rounded-3xl shadow-sm">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        {/* Left Content */}
+        <div className="space-y-6">
+          <div>
+            <h5 className="uppercase tracking-[4px] text-sm text-lime-700 font-semibold mb-3">
+              About Us
+            </h5>
+            <h2 className="text-5xl md:text-6xl font-extrabold text-lime-900 leading-tight drop-shadow-sm">
+              About the Organisation
+            </h2>
+          </div>
 
+          <p className="text-gray-700 text-lg leading-relaxed">
+            ADORE is a global volunteer-driven community that brings together
+            individuals committed to creating meaningful social impact through
+            simple and powerful actions.
+            <br />
+            <br />
+            We believe real change begins with awareness, empathy, compassion,
+            and action. Through structured volunteering programs and leadership
+            development, ADORE inspires youth to contribute to society while
+            building essential life skills, shaping them into compassionate
+            leaders and responsible citizens.
+            <br />
+            <br />
+            With members across India and beyond, ADORE provides a platform for
+            young minds to engage, learn, and grow through purposeful social
+            initiatives.
           </p>
-          <p className="text-gray-600 text-base mb-8">
+
+          <p className="text-gray-600 text-base font-medium">
             <strong>Sponsored by Garg Foundation</strong>
           </p>
-         <a href="https://adoreglobal.org"> <button className="border border-lime-800 text-lime-900 font-semibold px-6 py-3 rounded-lg hover:bg-lime-800 hover:text-white transition">
-            Read More
-          </button></a>
+
+          <a
+            href="https://adoreglobal.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <button className="px-7 py-3 text-lg border border-lime-800 text-lime-900 font-semibold rounded-xl hover:bg-lime-800 hover:text-white transition-all shadow-md hover:shadow-lg">
+              Read More
+            </button>
+          </a>
         </div>
 
-        {/* Right Image Grid */}
+        {/* Right Image Layout */}
         <div className="grid grid-cols-2 gap-6">
           <img
             src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80"
             alt="Helping hands"
-            className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
-          />
-          {/* <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0001.jpg"
-            alt="Volunteers"
-            className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
+            className="rounded-3xl shadow-lg object-cover w-full h-64 md:h-80 transform hover:scale-[1.03] transition duration-300"
           />
           <img
             src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80"
             alt="Donation"
-            className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
+            className="rounded-3xl shadow-lg object-cover w-full h-64 md:h-80 transform hover:scale-[1.03] transition duration-300"
           />
           <img
             src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80"
             alt="Charity"
-            className="rounded-2xl shadow-md object-cover w-full h-60 md:h-72"
-          /> */}
+            className="rounded-3xl shadow-lg object-cover w-full h-64 md:h-80 transform hover:scale-[1.03] transition duration-300"
+          />
+          <img
+            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0001.jpg"
+            alt="Volunteers"
+            className="rounded-3xl shadow-lg object-cover w-full h-64 md:h-80 transform hover:scale-[1.03] transition duration-300"
+          />
         </div>
       </div>
     </section>
