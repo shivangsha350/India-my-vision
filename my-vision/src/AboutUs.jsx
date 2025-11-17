@@ -2,15 +2,12 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-linear-to-br from-white to-lime-50 py-24 px-6 md:px-20 rounded-3xl shadow-sm">
+    <section className="bg-linear-to-br from-white to-red-50 py-24 px-6 md:px-20 rounded-3xl shadow-sm">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div className="space-y-6">
           <div>
-            <h5 className="uppercase tracking-[4px] text-sm text-lime-700 font-semibold mb-3">
-              About Us
-            </h5>
-            <h2 className="text-5xl md:text-6xl font-extrabold text-lime-900 leading-tight drop-shadow-sm">
+            <h2 className="text-5xl md:text-6xl font-extrabold text-red-900 leading-tight drop-shadow-sm">
               About the Organisation
             </h2>
           </div>
@@ -33,17 +30,13 @@ const AboutUs = () => {
             initiatives.
           </p>
 
-          <p className="text-gray-600 text-base font-medium">
-            <strong>Sponsored by Garg Foundation</strong>
-          </p>
-
           <a
             href="https://adoreglobal.org"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"
           >
-            <button className="px-7 py-3 text-lg border border-lime-800 text-lime-900 font-semibold rounded-xl hover:bg-lime-800 hover:text-white transition-all shadow-md hover:shadow-lg">
+            <button className="px-7 py-3 text-lg border border-red-800 text-red-900 font-semibold rounded-xl hover:bg-red-800 hover:text-white transition-all shadow-md hover:shadow-lg">
               Read More
             </button>
           </a>
