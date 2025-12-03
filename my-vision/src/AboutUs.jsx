@@ -7,7 +7,7 @@ const AboutUs = () => {
         {/* Left Content */}
         <div className="space-y-6">
           <div>
-            <h2 className="text-5xl md:text-6xl font-extrabold text-red-900 leading-tight drop-shadow-sm">
+            <h2 className="text-4xl md:text-4xl font-bold text-red-900 leading-tight drop-shadow-sm">
               About the Organisation
             </h2>
           </div>

@@ -36,9 +36,9 @@ const SubmissionProcess = () => {
     <section className="bg-white py-24 px-6 md:px-20">
       {/* Heading */}
       <div className="max-w-5xl mx-auto text-center mb-16">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-red-900 mb-4 tracking-tight">
+        <h2 className="text-4xl md:text-4xl font-bold text-red-900 mb-4 tracking-tight">
           Submission Process
-        </h2>ṅ
+        </h2>
         <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Follow these simple steps to successfully complete your submission.
         </p>
