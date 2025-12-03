@@ -7,7 +7,7 @@ const AboutUs = () => {
         {/* Left Content */}
         <div className="space-y-6">
           <div>
-            <h2 className="text-5xl md:text-6xl font-extrabold text-red-900 leading-tight drop-shadow-sm">
+            <h2 className="text-5xl md:text-6xl font-extrabold text-[#2c254e] leading-tight drop-shadow-sm">
               About the Organisation
             </h2>
           </div>
@@ -36,7 +36,7 @@ const AboutUs = () => {
             rel="noopener noreferrer"
             className="inline-block"
           >
-            <button className="px-7 py-3 text-lg border border-red-800 text-red-900 font-semibold rounded-xl hover:bg-red-800 hover:text-white transition-all shadow-md hover:shadow-lg">
+            <button className="px-7 py-3 text-lg border border-[#2c254e] text-[#2c254e] font-semibold rounded-xl hover:bg-[#2c254e] hover:text-white transition-all shadow-md hover:shadow-lg">
               Read More
             </button>
           </a>

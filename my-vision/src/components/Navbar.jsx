@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className="w-full shadow-md relative">
       {/* 🔴 Top Bar */}
-      <div className="bg-[#c53c56] text-white flex flex-col md:flex-row justify-between items-center px-6 md:px-16 py-2 text-sm">
+      <div className="bg-[#2c254e] text-white flex flex-col md:flex-row justify-between items-center px-6 md:px-16 py-2 text-sm">
         {/* Left Info Section */}
         <div className="flex flex-wrap justify-center md:justify-start items-center gap-6">
           <div className="flex items-center gap-2">
@@ -56,7 +56,7 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-8 text-gray-800 font-medium">
-          <a href="#" className="text-lime-600 font-semibold">
+          <a href="#" className=" font-semibold">
             HOME
           </a>
           <a href="#" className="hover:text-lime-600 transition">

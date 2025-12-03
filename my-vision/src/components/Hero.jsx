@@ -56,7 +56,7 @@ const Hero = () => {
                 </p>
 
                 <div className="flex gap-4">
-                  <button className="bg-[#c53c56] hover:bg-[#a93148] text-white font-semibold px-8 py-3 rounded-md transition">
+                  <button className="bg-[#2c254e] hover:bg-[#a93148] text-white font-semibold px-8 py-3 rounded-md transition">
                     LEARN MORE
                   </button>
                   <button className="bg-white hover:bg-gray-200 text-[#c53c56] font-semibold px-8 py-3 rounded-md transition">

@@ -32,7 +32,7 @@ const Objectives = () => {
     <section className="bg-[#FAFAF8] py-24 px-6 md:px-20">
       {/* Heading Section */}
       <div className="max-w-5xl mx-auto text-center mb-16">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-red-900 mb-4 tracking-tight">
+        <h2 className="text-5xl md:text-6xl font-extrabold text-[#2c254e] mb-4 tracking-tight">
           Objectives
         </h2>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
@@ -58,12 +58,12 @@ const Objectives = () => {
             </div>
 
             {/* Number */}
-            <div className="text-red-600 text-4xl font-extrabold mb-2 opacity-90">
+            <div className="text-[#2c254e] text-4xl font-extrabold mb-2 opacity-90">
               {item.num}
             </div>
 
             {/* Title */}
-            <h4 className="text-xl font-bold text-red-900 mb-3">
+            <h4 className="text-xl font-bold text-[#2c254e] mb-3">
               {item.title}
             </h4>
 
