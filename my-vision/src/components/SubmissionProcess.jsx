@@ -43,7 +43,7 @@ const SubmissionProcess = () => {
           Follow these simple steps to successfully complete your submission.
         </p>
       </div>
-    
+
       {/* Step Cards */}
       <div className="max-w-6xl mx-auto grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
         {steps.map((step) => (
@@ -76,7 +76,7 @@ const SubmissionProcess = () => {
             className="w-full h-48 object-cover"
           />
           <div className="p-10">
-            <div className="text-[#2c254e]  text-6xl font-extrabold opacity-20 mb-3 group-hover:opacity-30 transition">
+            <div className="text-[#2c254e] text-6xl font-extrabold opacity-20 mb-3 group-hover:opacity-30 transition">
               05
             </div>
             <h3 className="text-2xl font-bold text-[#2c254e] mb-4 group-hover:underline underline-offset-4">

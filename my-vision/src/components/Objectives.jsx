@@ -30,6 +30,7 @@ const Objectives = () => {
 
   return (
     <section className="bg-[#FAFAF8] py-24 px-6 md:px-20">
+      
       {/* Heading Section */}
       <div className="max-w-5xl mx-auto text-center mb-16">
         <h2 className="text-5xl md:text-6xl font-extrabold text-[#2c254e] mb-4 tracking-tight">
@@ -48,7 +49,7 @@ const Objectives = () => {
             key={item.num}
             className="bg-white rounded-2xl border shadow-md hover:shadow-lg transition p-6"
           >
-            {/* Image with zoom effect */}
+            {/* Image */}
             <div className="overflow-hidden rounded-xl mb-5">
               <img
                 src={item.img}

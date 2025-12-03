@@ -4,6 +4,7 @@ const AboutUs = () => {
   return (
     <section className="bg-linear-to-br from-white to-red-50 py-24 px-6 md:px-20 rounded-3xl shadow-sm">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        
         {/* Left Content */}
         <div className="space-y-6">
           <div>
